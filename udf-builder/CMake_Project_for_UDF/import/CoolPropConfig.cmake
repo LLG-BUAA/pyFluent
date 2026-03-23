@@ -1,0 +1,6 @@
+add_library(CoolProp SHARED IMPORTED)
+set_target_properties(CoolProp PROPERTIES
+    IMPORTED_LOCATION "${CMAKE_CURRENT_LIST_DIR}/CoolProp.dll"
+    IMPORTED_IMPLIB "${CMAKE_CURRENT_LIST_DIR}/CoolProp.lib"
+    # IMPORTED_LINK_INTERFACE_LANGUAGES "C"
+)

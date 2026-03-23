@@ -1,0 +1,46 @@
+Auto-Transcript Start Time:  14:11:35, 19 Mar 2026 中国标准时间 
+Current Directory: "F:\pyFluent\workspace"
+Information: The server has started and is running.
+
+              Welcome to ANSYS Fluent 2025 R2
+
+              Copyright 1987-2025 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Jun 16 2025 10:46:43 EDT  Build Id: 10204  
+ 
+Connected License Server List:	1055@localhost
+Host spawning Node 0 on machine "LLG-WS" (win64).
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core   O.S.         PID    Vendor                            
+-------------------------------------------------------------------------------
+n15   LLG-WS    16/20  Windows-x64  66108  Intel(R) Core(TM) Ultra 7 265K    
+n14   LLG-WS    15/20  Windows-x64  51840  Intel(R) Core(TM) Ultra 7 265K    
+n13   LLG-WS    14/20  Windows-x64  20532  Intel(R) Core(TM) Ultra 7 265K    
+n12   LLG-WS    13/20  Windows-x64  76452  Intel(R) Core(TM) Ultra 7 265K    
+n11   LLG-WS    12/20  Windows-x64  56044  Intel(R) Core(TM) Ultra 7 265K    
+n10   LLG-WS    11/20  Windows-x64  41884  Intel(R) Core(TM) Ultra 7 265K    
+n9    LLG-WS    10/20  Windows-x64  72812  Intel(R) Core(TM) Ultra 7 265K    
+n8    LLG-WS    9/20   Windows-x64  71716  Intel(R) Core(TM) Ultra 7 265K    
+n7    LLG-WS    8/20   Windows-x64  3936   Intel(R) Core(TM) Ultra 7 265K    
+n6    LLG-WS    7/20   Windows-x64  38168  Intel(R) Core(TM) Ultra 7 265K    
+n5    LLG-WS    6/20   Windows-x64  21548  Intel(R) Core(TM) Ultra 7 265K    
+n4    LLG-WS    5/20   Windows-x64  39528  Intel(R) Core(TM) Ultra 7 265K    
+n3    LLG-WS    4/20   Windows-x64  76480  Intel(R) Core(TM) Ultra 7 265K    
+n2    LLG-WS    3/20   Windows-x64  7956   Intel(R) Core(TM) Ultra 7 265K    
+n1    LLG-WS    2/20   Windows-x64  59080  Intel(R) Core(TM) Ultra 7 265K    
+n0*   LLG-WS    1/20   Windows-x64  49712  Intel(R) Core(TM) Ultra 7 265K    
+host  LLG-WS           Windows-x64  74748  Intel(R) Core(TM) Ultra 7 265K    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is F:\\pyFluent\\workspace\\cleanup-fluent-LLG-WS-74748.bat
+
+Graphics driver currently in use: dx11
+
+

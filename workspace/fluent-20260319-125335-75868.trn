@@ -1,0 +1,309 @@
+Auto-Transcript Start Time:  12:53:35, 19 Mar 2026 中国标准时间 
+Current Directory: "F:\pyFluent\workspace"
+Information: The server has started and is running.
+
+              Welcome to ANSYS Fluent 2025 R2
+
+              Copyright 1987-2025 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Jun 16 2025 10:46:43 EDT  Build Id: 10204  
+ 
+Connected License Server List:	1055@localhost
+Host spawning Node 0 on machine "LLG-WS" (win64).
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core   O.S.         PID    Vendor                            
+-------------------------------------------------------------------------------
+n15   LLG-WS    16/20  Windows-x64  50784  Intel(R) Core(TM) Ultra 7 265K    
+n14   LLG-WS    15/20  Windows-x64  40160  Intel(R) Core(TM) Ultra 7 265K    
+n13   LLG-WS    14/20  Windows-x64  63128  Intel(R) Core(TM) Ultra 7 265K    
+n12   LLG-WS    13/20  Windows-x64  40496  Intel(R) Core(TM) Ultra 7 265K    
+n11   LLG-WS    12/20  Windows-x64  73960  Intel(R) Core(TM) Ultra 7 265K    
+n10   LLG-WS    11/20  Windows-x64  73504  Intel(R) Core(TM) Ultra 7 265K    
+n9    LLG-WS    10/20  Windows-x64  69412  Intel(R) Core(TM) Ultra 7 265K    
+n8    LLG-WS    9/20   Windows-x64  69356  Intel(R) Core(TM) Ultra 7 265K    
+n7    LLG-WS    8/20   Windows-x64  51080  Intel(R) Core(TM) Ultra 7 265K    
+n6    LLG-WS    7/20   Windows-x64  35872  Intel(R) Core(TM) Ultra 7 265K    
+n5    LLG-WS    6/20   Windows-x64  37528  Intel(R) Core(TM) Ultra 7 265K    
+n4    LLG-WS    5/20   Windows-x64  47256  Intel(R) Core(TM) Ultra 7 265K    
+n3    LLG-WS    4/20   Windows-x64  66528  Intel(R) Core(TM) Ultra 7 265K    
+n2    LLG-WS    3/20   Windows-x64  40440  Intel(R) Core(TM) Ultra 7 265K    
+n1    LLG-WS    2/20   Windows-x64  57720  Intel(R) Core(TM) Ultra 7 265K    
+n0*   LLG-WS    1/20   Windows-x64  32584  Intel(R) Core(TM) Ultra 7 265K    
+host  LLG-WS           Windows-x64  71284  Intel(R) Core(TM) Ultra 7 265K    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is F:\\pyFluent\\workspace\\cleanup-fluent-LLG-WS-71284.bat
+
+Graphics driver currently in use: dx11
+
+
+> Fast-loading "D:\WORKST~1\Ansys\ANSYSI~1\v252\fluent\fluent25.2.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+LLG-WS has other FLUENT parallel processes running.                       Process affinity not being set.
+
+Reading from LLG-WS:"D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\SYS-2-38.cas.h5" in NODE0 mode ...
+  Reading mesh ...
+Warning: reading 18 partition grid onto 16 compute node machine.
+         will auto partition.
+      187195 cells,     2 cell zones ...
+         124954 quadrilateral cells,  zone id: 6
+          62241 mixed cells,  zone id: 7
+      353767 faces,    19 face zones ...
+             79 mixed wall faces,  zone id: 24
+             36 mixed interior faces,  zone id: 26
+             80 mixed wall faces,  zone id: 21
+             26 mixed interior faces,  zone id: 23
+           2722 mixed interior faces,  zone id: 5
+         246502 2D interior faces,  zone id: 1
+          95915 2D interior faces,  zone id: 2
+            966 2D interior faces,  zone id: 3
+             83 2D mass-flow-inlet faces,  zone id: 8
+             50 2D pressure-outlet faces,  zone id: 9
+           2215 2D axis faces,  zone id: 10
+            852 2D wall faces,  zone id: 11
+           1488 2D interface faces,  zone id: 12
+            100 2D interface faces,  zone id: 13
+             92 2D interface faces,  zone id: 14
+           1278 2D wall faces,  zone id: 15
+           1235 2D interface faces,  zone id: 16
+             24 2D interface faces,  zone id: 17
+             24 2D interface faces,  zone id: 18
+      163631 nodes,     1 node zone  ...
+  Done.
+
+
+Checking the existence of compiled "libudf" UDF library for current platform.
+If needed will attempt auto-compilation...
+
+ 	 Make sure that UDF source files are in the directory 
+ 	 that contains your case and data files. If you have 
+ 	 an existing libudf directory, please remove this 
+ 	 directory to ensure that latest files are used. 
+  
+
+Will now auto-compile UDF library "libudf".
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\PE_Arrhenius_WAX_Evapor_Ent.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\c32h66_dpm.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\enthalpy.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\fuel_surface.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\kinetics.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\mass_flux_calculator.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\regression.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\sources.c" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\c32h66_dpm.h" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\enthalpy.h" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\fuel_surface.h" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\kinetics.h" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\mass_flux_calculator.h" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\regression.h" to "libudf\\src"
+
+Copy "D:\Workshop\Workbench\DPM\dpm-v1-1_files\dp0\FLU-4\Fluent\dpm-test-udf\sources.h" to "libudf\\src"
+
+Files udf_names.c and user_nt.udf in 2ddp_host are up-to-date.
+
+Copyright 1987-2025 ANSYS, Inc. All Rights Reserved.
+Compiler and linker: Clang (builtin)
+
+scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
+File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_host\\SConstruct", line 20, in <module>
+Compiler path: "D:\\WORKST~1\\Ansys\\ANSYSI~1\\v252\\fluent"\\ntbin\\clang\\bin\\clang-cl
+Linker   path: "D:\\WORKST~1\\Ansys\\ANSYSI~1\\v252\\fluent"\\ntbin\\clang\\bin\\lld-link
+
+scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
+File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_host\\SConstruct", line 156, in <module>
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaa in position 144: illegal multibyte sequence:
+  File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_host\\SConstruct", line 180:
+    generate_udf_source(t, s, env)
+  File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_host\\SConstruct", line 91:
+    for line in f:
+Files udf_names.c and user_nt.udf in 2ddp_node are up-to-date.
+
+Copyright 1987-2025 ANSYS, Inc. All Rights Reserved.
+Compiler and linker: Clang (builtin)
+
+scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
+File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_node\\SConstruct", line 20, in <module>
+Compiler path: "D:\\WORKST~1\\Ansys\\ANSYSI~1\\v252\\fluent"\\ntbin\\clang\\bin\\clang-cl
+Linker   path: "D:\\WORKST~1\\Ansys\\ANSYSI~1\\v252\\fluent"\\ntbin\\clang\\bin\\lld-link
+
+scons: warning: No version of Visual Studio compiler found - C/C++ compilers most likely not set correctly
+File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_node\\SConstruct", line 156, in <module>
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xaa in position 144: illegal multibyte sequence:
+  File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_node\\SConstruct", line 180:
+    generate_udf_source(t, s, env)
+  File "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf\\win64\\2ddp_node\\SConstruct", line 91:
+    for line in f:
+
+Done.
+
+LLG-WS: Opening library "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf"...
+Done.
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+LLG-WS: Opening library "D:\\Workshop\\Workbench\\DPM\\dpm-v1-1_files\\dp0\\FLU-4\\Fluent\\dpm-test-udf\\libudf"...
+	rename_udm
+	Grid_Motion
+	init_paraffin_from_surface
+	paraffin_pyrolysis_law
+	paraffin_pyrolysis_source
+	dpm_switch
+	filter_and_remove
+	limit_to_e_minus_four
+	fuel_wall_temperature
+	Enable_Ent_Source
+	Disable_Ent_Source
+	Fit_Mass_Flow_Function_Fast
+	Fit_Mass_Flow_Function
+	Print_Mass_Flow_Function
+	Total_Mass_Source
+	X_Mom_Source
+	Y_Mom_Source
+	Z_Mom_Source
+	C2H4_Mass_Source
+	H2_Mass_Source
+	Energy_Source_t
+	Non_Source
+	Vari_Source
+	Constan_Sources
+	Cal_Rho_Gas
+	set_r_to
+
+UDF Autorun:
+rename_udm
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+Done.
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+UDM Offset for Current Loaded Library = 0
+
+=====================================================
+
+Building...
+     mesh
+	auto partitioning mesh by Metis (fast),
+	distributing mesh
+		parts................,
+		faces................,
+		nodes................,
+		cells................,
+        bandwidth reduction using Reverse Cuthill-McKee: 10961/103 = 106.417
+  Reading NCI Node Coordinates ...
+  Done.
+
+     materials,
+     interface,
+     domains,
+	mixture
+     zones,
+	fuel-wall
+	wall
+	axis
+	outlet
+	in-mesh-line
+	interior-fluid-fuel
+	interior-fluid-flow
+	fuel-down
+	fuel-left
+	fuel-right
+	wall-down
+	wall-left
+	wall-right
+	fuel-down-non-overlapping
+	wall-down-non-overlapping
+	intf:01:fuel-down::wall-down
+	fuel-left-non-overlapping
+	wall-left-non-overlapping
+	intf:02:fuel-left::wall-left
+	fuel-right-non-overlapping
+	wall-right-non-overlapping
+	intf:03:fuel-right::wall-right
+	inlet
+	fluid-fuel
+	fluid-flow
+     mesh interfaces,
+     parallel,
+Done.
+Since node values are off, changing the colormap type to "Banded".

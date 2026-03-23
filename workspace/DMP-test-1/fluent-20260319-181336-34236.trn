@@ -1,0 +1,53 @@
+Auto-Transcript Start Time:  18:13:36, 19 Mar 2026 中国标准时间 
+Current Directory: "F:\pyFluent\workspace\DMP-test-1"
+Information: The server has started and is running.
+
+              Welcome to ANSYS Fluent 2025 R2
+
+              Copyright 1987-2025 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Jun 16 2025 10:46:43 EDT  Build Id: 10204  
+ 
+Connected License Server List:	1055@localhost
+Host spawning Node 0 on machine "LLG-WS" (win64).
+
+-------------------------------------------------------------------------------
+ID    Hostname  Core   O.S.         PID    Vendor                            
+-------------------------------------------------------------------------------
+n15   LLG-WS    16/20  Windows-x64  54616  Intel(R) Core(TM) Ultra 7 265K    
+n14   LLG-WS    15/20  Windows-x64  32228  Intel(R) Core(TM) Ultra 7 265K    
+n13   LLG-WS    14/20  Windows-x64  55564  Intel(R) Core(TM) Ultra 7 265K    
+n12   LLG-WS    13/20  Windows-x64  71500  Intel(R) Core(TM) Ultra 7 265K    
+n11   LLG-WS    12/20  Windows-x64  47412  Intel(R) Core(TM) Ultra 7 265K    
+n10   LLG-WS    11/20  Windows-x64  49824  Intel(R) Core(TM) Ultra 7 265K    
+n9    LLG-WS    10/20  Windows-x64  61584  Intel(R) Core(TM) Ultra 7 265K    
+n8    LLG-WS    9/20   Windows-x64  53672  Intel(R) Core(TM) Ultra 7 265K    
+n7    LLG-WS    8/20   Windows-x64  48624  Intel(R) Core(TM) Ultra 7 265K    
+n6    LLG-WS    7/20   Windows-x64  34076  Intel(R) Core(TM) Ultra 7 265K    
+n5    LLG-WS    6/20   Windows-x64  72736  Intel(R) Core(TM) Ultra 7 265K    
+n4    LLG-WS    5/20   Windows-x64  76204  Intel(R) Core(TM) Ultra 7 265K    
+n3    LLG-WS    4/20   Windows-x64  54224  Intel(R) Core(TM) Ultra 7 265K    
+n2    LLG-WS    3/20   Windows-x64  72320  Intel(R) Core(TM) Ultra 7 265K    
+n1    LLG-WS    2/20   Windows-x64  66280  Intel(R) Core(TM) Ultra 7 265K    
+n0*   LLG-WS    1/20   Windows-x64  42872  Intel(R) Core(TM) Ultra 7 265K    
+host  LLG-WS           Windows-x64  48472  Intel(R) Core(TM) Ultra 7 265K    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------
+
+Cleanup script file is F:\\pyFluent\\workspace\\DMP-test-1\\cleanup-fluent-LLG-WS-48472.bat
+
+Graphics driver currently in use: dx11
+
+
+> Shutting down Server...
+Services Shutdown...Done.
+Server Shutdown...Done.
+Queue Cleared...Done.
+Shutdown Complete.
+Auto-Transcript Stop Time:  18:20:32, 19 Mar 2026 中国标准时间 
+Total Transcript Time: 6 Minute 55 Second.

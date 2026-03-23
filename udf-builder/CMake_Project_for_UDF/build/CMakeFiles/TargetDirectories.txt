@@ -1,0 +1,6 @@
+F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/CMakeFiles/edit_cache.dir
+F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/CMakeFiles/rebuild_cache.dir
+F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/src/CMakeFiles/udfhost.dir
+F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/src/CMakeFiles/udfnode.dir
+F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/src/CMakeFiles/edit_cache.dir
+F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/src/CMakeFiles/rebuild_cache.dir

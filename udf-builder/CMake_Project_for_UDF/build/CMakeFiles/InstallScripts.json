@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/cmake_install.cmake",
+		"F:/pyFluent/udf-builder/CMake_Project_for_UDF/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
